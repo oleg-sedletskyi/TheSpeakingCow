@@ -225,7 +225,7 @@ $ cowsay aksjdhkljsdahflkajshflkajshdfklajshdfklajshdflkajsdhflkjashdfkljasdhfak
                 ||----w |
                 ||     ||
 
-
+c
 $ curl --silent http://rss.slashdot.org/Slashdot/slashdot | grep -E '(title>|description>)' | sed -n '4,$p' | sed -e 's/<title>//' -e 's/<\/title>//' -e 's/<description>/   /' -e 's/<\/description>//' | head -2 | cowsay
  _________________________________________
 / NVIDIA's GeForce GTX 980 Ti Costs $350  \
@@ -263,6 +263,7 @@ $ curl --silent http://rss.slashdot.org/Slashdot/slashdot | grep -E '(title>|des
                 ||     ||
 
 
+C
 
 
 
