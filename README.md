@@ -37,7 +37,6 @@ d d d d da s da sd a sd as da s da sd as da sd a sd as d a sda sd a sd asd as da
                 ||     ||
 
 
-
 The -W specifies **roughly** where the message should be wrapped. The default is equivalent to -W 40 i.e.
 wrap words at or before the 40th column.
 
