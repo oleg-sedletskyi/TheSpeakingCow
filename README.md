@@ -225,45 +225,9 @@ $ cowsay aksjdhkljsdahflkajshflkajshdfklajshdfklajshdflkajsdhflkjashdfkljasdhfak
                 ||----w |
                 ||     ||
 
-c
+
 $ curl --silent http://rss.slashdot.org/Slashdot/slashdot | grep -E '(title>|description>)' | sed -n '4,$p' | sed -e 's/<title>//' -e 's/<\/title>//' -e 's/<description>/   /' -e 's/<\/description>//' | head -2 | cowsay
- _________________________________________
-/ NVIDIA's GeForce GTX 980 Ti Costs $350  \
-| Less Than TITAN X, Performs Similarly   |
-|                                         |
-| Deathspawner writes: In advance of the  |
-| rumored pending launch of AMD's         |
-| next-generation Radeon graphics cards,  |
-| NVIDIA has decided to pull no punches   |
-| and release a seriously tempting GTX    |
-| 980 Ti at $649. It's tempting both      |
-| because the extra $150 it costs over    |
-| the GTX 980 more than makes up for it   |
-| in performance gained, and despite it   |
-| coming really close to the performance  |
-| of TITAN X, it costs $350 less. AMD's   |
-| job might just have become a bit        |
-| harder. Vigile adds The GTX 980 Ti has  |
-| 6GB of memory (versus 12GB for the GTX  |
-| Titan X) but PC Perspective's review    |
-| shows no negative side effects of the   |
-| drop. This implementation of the GM200  |
-| GPU uses 2,816 CUDA cores rather than   |
-| the 3,072 cores of the Titan X, but     |
-| thanks to higher average Boost clocks,  |
-| performance between the two cards is    |
-| identical. And at Hot Hardware, another |
-| equally positive, benchmark-laden       |
-\ review.                                 /
- -----------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
 
-
-C
 
 
 
