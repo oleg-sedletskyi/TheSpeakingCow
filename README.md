@@ -22,7 +22,6 @@ d d d d da s da sd a sd as da s da sd as da sd a sd as d a sda sd a sd asd as da
                 ||----w |
                 ||     ||
 
-
 And without the -n switch:
 $ cowsay
 d d d d da s da sd a sd as da s da sd as da sd a sd as d a sda sd a sd asd as da s
