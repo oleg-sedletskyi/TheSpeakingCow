@@ -226,7 +226,6 @@ $ cowsay aksjdhkljsdahflkajshflkajshdfklajshdfklajshdflkajsdhflkjashdfkljasdhfak
                 ||     ||
 
 
-$ curl --silent http://rss.slashdot.org/Slashdot/slashdot | grep -E '(title>|description>)' | sed -n '4,$p' | sed -e 's/<title>//' -e 's/<\/title>//' -e 's/<description>/   /' -e 's/<\/description>//' | head -2 | cowsay
 
 
 
